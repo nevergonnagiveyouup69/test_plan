@@ -75,7 +75,7 @@ Allocated Time: 20 minutes
 | TC006 | Validate email field with invalid formats | All invalid formats rejected | Some invalid formats accepted | Fail 🔗 ![Bug #4](assets/Capture3.png) |
 | TC007 | Reset password with valid flow | Email sent, link works, password reset | Verification failed error | Fail 🔗 [Bug #10](https://jam.dev/c/0fc69442-2445-42a0-b867-677e5d3e71cf) |
 | TC008 | Leave required field empty | Show field-level error | Icons and placeholders break | Fail 🔗 ![Bug #5](assets/Capture4.png) |
-| TC009 | Test auto logout on inactivity | User is logged out | To be confirmed | Pending |
+| TC009 | Test auto logout on inactivity | User is logged out | To be confirmed | Fail |
 | TC010 | Refresh page mid-session | Session persists | Works correctly | Pass |
 | TC011 | Check sign button state before and after valid input | Initially disabled, enabled after valid input | Sign button enables prematurely | Fail 🔗 [Bug #7](https://www.loom.com/share/fff113d54fbe4cd9b7dc97ec05c9de55) |
 | TC012 | Input Bangladeshi phone as `017...` | Should suggest `+880...` | Fails without format hint | Fail 🔗 [Bug #8](https://www.loom.com/share/ab3d3a9b22c04d97adcb5dd76ebfacbb) |
