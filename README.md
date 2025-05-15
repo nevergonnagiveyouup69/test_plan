@@ -21,3 +21,21 @@
 
 ### 6. [Compatibility and Performance](./test-charters/compatibility-performance.md)
 - Measures site responsiveness, browser support, and load handling.
+
+
+## 🔍 View Automation Test Cases
+
+You can view all automation test cases under the [`tests/`](./tests) directory.
+[test_cases](test-charters/assets/coverage.png)
+
+
+| Test Module           | Description                                 |
+|-----------------------|---------------------------------------------|
+| `login.spec.js`       | Covers user login and registration flows    |
+| `filter_product.spec.js` | Validates product filtering and search    |
+| `product_detail.spec.js` | Verifies product detail page behavior     |
+| `product_SEARCH.spec.js` | Verifies search product detail page behavior     |
+| `add_to_cart_and_delete.spec.js` | Tests cart add/remove operations |
+| `userprofile.spec.js` | Handles user profile-related scenarios      |
+
+> All test cases are written using [Playwright](https://playwright.dev/) in JavaScript.
