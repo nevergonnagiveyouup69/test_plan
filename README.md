@@ -22,11 +22,11 @@
 ### 6. [Compatibility and Performance](./test-charters/compatibility-performance.md)
 - Measures site responsiveness, browser support, and load handling.
 
-
+--
 ## 🔍 View Automation Test Cases
 
 You can view all automation test cases under the [`tests/`](./tests) directory.
-[test_cases](test-charters/assets/coverage.png)
+![test_cases](test-charters/assets/coverage.png)
 
 
 | Test Module           | Description                                 |
@@ -39,3 +39,4 @@ You can view all automation test cases under the [`tests/`](./tests) directory.
 | `userprofile.spec.js` | Handles user profile-related scenarios      |
 
 > All test cases are written using [Playwright](https://playwright.dev/) in JavaScript.
+--
